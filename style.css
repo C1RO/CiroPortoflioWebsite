@@ -1,0 +1,138 @@
+.Logo{
+  font-size: 40px;
+  color: #D4AF37;
+  font-feature-settings: 'cpsp' on;
+  font-family: 'League Spartan';
+margin-bottom: 10%;
+margin-left: 8%;
+}
+
+.navbar{
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
+
+  margin-top: 110px;
+width: 100%;
+height: 10px;
+display: flex;
+flex-wrap: wrap;
+}
+.navbarItem{
+  font-size: 35px;
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-family: 'Poppins';
+text-align: center;
+font-weight: 900;
+font-style: italic;
+}
+.navbarItem:hover{
+  color: #FE4164
+  ;
+}
+body{
+  background-image:url("/img/abstracto.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.PresentacionArticle{
+width:1800px;
+height: 1500px;
+position: sticky;
+margin-top: 100px;
+text-align: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url(/img/homehd.jpg);
+}
+.ArticleEntrada{
+  display: flex;
+  justify-content: center;
+
+}
+body article h1{
+  font-size: 300%;
+  font-family: 'Poppins';
+  color: white;
+font-weight: 900;
+font-style: italic;
+}
+body article h1 span{
+  font-size: 150%;
+  font-family: 'Aguafina Script', cursive;
+    color: white;
+letter-spacing:5px;
+
+font-style: italic;
+}
+body article h2{
+  font-size: 200%;
+  font-family: 'League Spartan';
+  color: #FE4164;
+}
+body article a{
+  font-size: 130%;
+  font-family: 'Cinzel';
+  letter-spacing: 8px;
+  color: #ffffff;
+  font-style: italic;
+}
+
+.myButton {
+  font-family: 'Arial';
+	background-color:#FE4164;
+  font-weight: bold;
+	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding:13px 22px;
+	text-decoration:none;
+  letter-spacing:2px;
+
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #FE4164 5%, #FE4189 100%);
+	background-color:#FE4164
+  ;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.Imagenes{
+  height: fit-content;
+  width: fit-content;
+font-size: 50px;
+background-size: cover;
+}
+
+.Carousel{
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
+
+  margin-top: 110px;
+width: 100%;
+height: 150px;
+display: flex;
+flex-wrap: wrap;
+
+}
+.SobreMi{
+background-image: url("/img/bloquesh.jpg");  width: 100%;
+  height: 100%;
+  margin-top: 12%;
+  background-repeat: no-repeat;
+background-size: cover;
+}
+.Portfolio{
+  background-image: url("/img/bloque\ azul.jpg");  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+background-size: cover;
+}
+
